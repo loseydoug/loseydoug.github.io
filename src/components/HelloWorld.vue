@@ -111,11 +111,20 @@
 </template>
 
 <script>
+import pokedex from '../assets/pokedex/pokedex.json';
 export default {
   name: "HelloWorld",
   props: {
     msg: String,
   },
+  data: () => {
+    return {
+      pokedex
+    }
+  },
+  mounted: {
+    
+  }
 };
 </script>
 
