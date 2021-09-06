@@ -1,0 +1,8 @@
+Host github.wsgc.com
+	HostName github.wsgc.com
+	User dlosey
+	IdentityFile ~/.ssh/id_rsa
+Host github.com
+	HostName github.com
+	User loseydoug
+	IdentityFile ~/.ssh/id_rsa_personal
