@@ -29,19 +29,20 @@
   .expand-enter-active, .expand-leave-to {
     transition: all .3s ease;
     height: 66px;
-    padding: 10px;
     background-color: #eee;
     overflow: hidden;
   }
   .expand-enter-to {
-    padding: 10px;
     height: 66px;
   }
   .item-panel {
-    padding: 10px;
     height: 66px;
     flex-wrap: wrap;
     display: flex;
+    background-color: #e0f0ff;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid black;
+    width: 50%
   }
   span {
     display: flex;
@@ -52,7 +53,6 @@
 /* .expand-leave defines the ending state for leaving */
   .expand-enter, .expand-leave-to {
     height: 0;
-    padding: 0 10px;
     opacity: 0;
   }
 </style>

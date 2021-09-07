@@ -34,7 +34,6 @@ export default {
   },
   methods: {
     updateSelectedType: function(data) {
-      console.log(data)
       this.selectedType = data;
     }
   }
@@ -42,3 +41,13 @@ export default {
 };
 </script>
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+  .pokedex-container {
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+</style>

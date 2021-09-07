@@ -22,3 +22,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  select {
+    font-family: 'VT323', monospace;
+  }
+</style>
