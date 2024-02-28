@@ -8,10 +8,8 @@
     </div>
   </div>
 </template>
-
 <script>
 import bakingData from '../assets/Baking.json';
-
 export default {
   name: "BakingContainer",
   data: () => {
@@ -21,14 +19,3 @@ export default {
   },
 };
 </script>
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-  .pokedex-container {
-    font-family: 'VT323', monospace;
-    font-size: 20px;
-  }
-  h1 {
-    font-size: 30px;
-  }
-</style>
