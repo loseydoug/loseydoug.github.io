@@ -1,0 +1,21 @@
+{
+  "menu": {
+    "Sourdough Loaf": {
+      "id": 0,
+      "name":"Sourdough Loaf",
+      "price": "$XX",
+      "flavors": ["Plain", "Cheddar"]
+    },
+    "Sourdough Bagels": {
+      "id": 1,
+      "name":"Sourdough Bagels",
+      "price": "$XX",
+      "flavors": ["Plain", "Everything"]
+    },
+    "Sourdough Cookies": {
+      "id": 2,
+      "name":"Sourdough Cookies",
+      "price": "$XX"
+    }
+  }
+}
